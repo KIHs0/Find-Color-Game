@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  position: relative;
+  text-align: center;
+  background-color: black;
+}
+
+p {
+  margin: 5%;
+  font-size: 40px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 50px; */
+  /* height: 500px; */
+  /* background-color: rgb(2, 182, 232); */
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+
+.btn {
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border: 7px solid beige;
+  color: white;
+  border-radius: 18px;
+  margin: 3rem;
+  padding: 50px;
+  cursor: pointer;
+  box-sizing: border-box;
+  box-shadow: 0 4px 22px rgba(0, 0, 0, 0.2), 0 1px 3px rgba(0, 0, 0, 1.1);
+  transition: box-shadow 0.1s ease-out, transform 0.3s ease;
+}
+
+.btn:hover {
+  box-shadow: 1px 2px 15px rgba(196, 198, 235, 10.4),
+    3px 12px 4px rgba(0, 0, 0, 10.2);
+  transform: translateY(-2px);
+}
+
+.btn:active {
+  box-shadow: 0 4px 122px rgba(0, 0, 0, 0.2), 0 1px 3px rgba(0, 0, 0, 1.1);
+}
+.purered {
+  background-color: red;
+}
+
+.red {
+  background-color: #d95980;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.green {
+  background-color: #63aac0;
+}
+
+.yellow {
+  background-color: #f99b45;
+}
+
+.flash {
+  background-color: whitesmoke;
+  color: black;
+}
