@@ -14,8 +14,9 @@ Find Color Game is an interactive **Simon Says-style** game that tests your memo
 
 ## 📦 Installation & Usage  
 📷 Screenshots
+
 ![](image.png)
-🎮 Game Interface
+        🎮 Game Interface
 🔴🟡🟢🔵 Color Flashing Sequence
 
 
